@@ -26,6 +26,14 @@ INSERT INTO Books (
 INSERT INTO Books (
         Name, Author, Image
 ) VALUES (
+        "Harry Potter and the Chamber of Secrets",
+        "J.K. Rowling",
+        "https://m.media-amazon.com/images/I/51TA3VfN8RL.jpg"
+);
+
+INSERT INTO Books (
+        Name, Author, Image
+) VALUES (
         "The Lord of the Rings: The Fellowship of the Ring, The Two Towers, The Return of the King",
         "J. R. R. Tolkien",
         "https://books.google.com/books/content/images/frontcover/FKziXsnqLTEC?fife=w200-h300"
