@@ -8,6 +8,10 @@ fi
 
 MYSQL_DATABASE="bookshelve"
 
+delete_container() {
+    sudo docker stop mysql && sudo docker rm mysql 
+}
+
 create_container() {
     sudo docker run -d \
         --name mysql \
