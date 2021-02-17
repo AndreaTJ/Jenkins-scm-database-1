@@ -8,7 +8,6 @@ fi
 
 MYSQL_DATABASE="bookshelve"
 
-
 create_container() {
     sudo docker run -d \
         --name mysql \
