@@ -47,3 +47,11 @@ INSERT INTO Books (
         "J.K. Rowling",
         "https://books.google.com/books/content/images/frontcover/39iYWTb6n6cC?fife=w200-h300"
 );
+
+INSERT INTO Books (
+        Name, Author, Image
+) VALUES (
+        "Ratatouille Recipes: The Best French Recipes Inspired by the Motion Picture",
+        "Susan Gray",
+        "https://images-na.ssl-images-amazon.com/images/I/51G6+rLuZvL._SX258_BO1,204,203,200_.jpg"
+);
